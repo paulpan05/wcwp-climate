@@ -7,3 +7,10 @@
     background-repeat: no-repeat;
     background-color: darkslategray;
 }
+
+.nav-item a {
+    color: white;
+}
+.nav-item a:hover {
+    color: lightgray;
+}

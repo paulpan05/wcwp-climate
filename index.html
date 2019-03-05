@@ -15,14 +15,38 @@
     <title>Solving Climate Change: How you can get involved?</title>
   </head>
   <body>
-    <nav class="navbar navbar-secondary bg-secondary shadow fixed-top">
-      <a class="navbar-brand text-white display-4">
-        <img src="src/iconfinder_globe_285647.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        Solutions to Climate Change
-      </a>
+    <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary shadow fixed-top">
+      <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+        <a class="navbar-brand display-4 text-white" href="#homepage">
+          <img src="src/iconfinder_globe_285647.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+          Solutions to Climate Change
+        </a>
+        <div class="w-100 text-right">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse flex-grow-1 text-right" id="mainbar">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+            <a href="#homepage" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#lifestyle-changes" class="nav-link">Lifestyle Changes</a>
+          </li>
+          <li class="nav-item">
+            <a href="#food-choices" class="nav-link">Food Choices</a>
+          </li>
+          <li class="nav-item">
+            <a href="#energy-usage" class="nav-link">Energy Usage</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <header class="masthead">
+    <header class="masthead" id="homepage">
       <div class="container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-12 text-center text-white">
@@ -37,7 +61,17 @@
     </header>
 
     <section class="px-5 py-5">
-      <h2 class="font-weight-light">Lifestyle Changes</h2>
+      <h2 class="font-weight-light" id="lifestyle-changes">Lifestyle Changes</h2>
+      <p>Test Content</p>
+    </section>
+
+    <section class="px-5 py-5">
+      <h2 class="font-weight-light" id="food-choices">Food Choices</h2>
+      <p>Test Content</p>
+    </section>
+
+    <section class="px-5 py-5">
+      <h2 class="font-weight-light" id="energy-usage">Energy Usage</h2>
       <p>Test Content</p>
     </section>
 
