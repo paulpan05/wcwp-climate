@@ -35,8 +35,38 @@
     border-radius: 25px;
 }
 
+@media only screen and (max-width: 575px) {
+    #co2counter {
+      height: 470px;
+    }
+}
+
 @media only screen and (max-width: 541px) {
     #co2counter {
-      height: 570px;
+      height: 530px;
+    }
+}
+
+@media only screen and (max-width: 513px) {
+    #co2counter {
+      height: 550px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #co2counter {
+      height: 590px;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    #co2counter {
+      height: 610px;
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    #co2counter {
+      height: 630px;
     }
 }
