@@ -23,6 +23,10 @@
     border-color: rgb(255, 255, 255);
 }
 
+.attribution {
+    font-size: 8pt;
+}
+
 #co2counter {
     height: 500px;
 }
