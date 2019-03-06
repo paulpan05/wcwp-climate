@@ -35,42 +35,8 @@
     border-radius: 25px;
 }
 
-#dynamic-text {
-    font-size: 4vw;
-}
-
-@media only screen and (max-width: 991px) {
-    #co2counter {
-      height: 510px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    #co2counter {
-      height: 530px;
-    }
-}
-
-@media only screen and (max-width: 615px) {
+@media only screen and (max-width: 541px) {
     #co2counter {
       height: 550px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    #co2counter {
-      height: 570px;
-    }
-}
-
-@media only screen and (max-width: 466px) {
-    #co2counter {
-      height: 600px;
-    }
-}
-
-@media only screen and (max-width: 466px) {
-    #co2counter {
-      height: 630px;
     }
 }
