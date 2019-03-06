@@ -31,8 +31,11 @@
     height: 500px;
 }
 
-#rounded-corners {
+#counter-explanation {
+    border-style: solid;
     border-radius: 25px;
+    background-color: #f36617;
+    border-color: #e73321;
 }
 
 @media only screen and (max-width: 575px) {
