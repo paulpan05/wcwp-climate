@@ -7,9 +7,9 @@ var myChart = new Chart(ctx, {
       "Avoid one transatlantic flight", 
       "Buy green energy", 
       "Switch electric car to car free", 
-      "Eat a plant based diet"],
+      "Plant based diet"],
     datasets: [{
-      label: 'Tons of carbon dioxide saved',
+      label: 'Tons of CO₂ saved',
       data: [58, 2.4, 1.6, 1.5, 1.15, 0.8],
       backgroundColor: [
         'rgba(255, 99, 132, 0.2)',
@@ -31,9 +31,13 @@ var myChart = new Chart(ctx, {
     }]
   },
   options: {
+    legend: {
+      display: false
+    },
     title: {
       display: true,
-      text: 'Personal choices to reduce contribution to climate change'
+      text: 'Personal choices to reduce contribution to climate change',
+      fontSize: 24
     },
     scales: {
       xAxes: [{
@@ -53,7 +57,7 @@ var myChart = new Chart(ctx, {
         },
         scaleLabel: {
           display: true,
-          labelString: 'Tons of carbon dioxide saved'
+          labelString: 'Tons of CO₂'
         }
       }]
     }
