@@ -1,6 +1,5 @@
 window.onload = function () {
-  document.getElementById("topnav").style.display = "block";
-  document.getElementById("hideAll").style.display = "none";
+  document.getElementById("hidingbody").style.display = "block";
 };
 var ctx = document.getElementById("impact-bar").getContext('2d');
 var myChart = new Chart(ctx, {
