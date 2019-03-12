@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
   document.getElementById("topnav").style.display = "block";
   document.getElementById("hideAll").style.display = "none";
 };
@@ -6,11 +6,11 @@ var ctx = document.getElementById("impact-bar").getContext('2d');
 var myChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["Have one fewer child", 
-      "Living car free", 
-      "Avoid one transatlantic flight", 
-      "Buy green energy", 
-      "Switch electric car to car free", 
+    labels: ["Have one fewer child",
+      "Living car free",
+      "Avoid one transatlantic flight",
+      "Buy green energy",
+      "Switch electric car to car free",
       "Plant based diet"],
     datasets: [{
       label: 'Tons of CO₂ saved',
@@ -54,9 +54,9 @@ var myChart = new Chart(ctx, {
         type: 'logarithmic',
         ticks: {
           autoSkip: true,
-          beginAtZero:true,
+          beginAtZero: true,
           callback: function (value) {
-            if(value == 0.5 || value == 1 || value == 5 || value == 60) return value;
+            if (value == 0.5 || value == 1 || value == 5 || value == 60) return value;
           }
         },
         scaleLabel: {
