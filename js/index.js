@@ -1,4 +1,5 @@
 window.onload = function() {
+  document.getElementById("topnav").style.display = "block";
   document.getElementById("hideAll").style.display = "none";
 };
 var ctx = document.getElementById("impact-bar").getContext('2d');
