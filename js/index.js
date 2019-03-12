@@ -1,3 +1,7 @@
+document.getElementById("hideAll").style.display = "block";
+window.onload = function() {
+  document.getElementById("hideAll").style.display = "none";
+};
 var ctx = document.getElementById("impact-bar").getContext('2d');
 var myChart = new Chart(ctx, {
   type: 'bar',
