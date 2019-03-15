@@ -1,6 +1,5 @@
 .masthead {
-    height: 100vh;
-    min-height: 500px;
+    height: 500px;
     background-image: url('../src/pollution-2043666.jpg');
     background-size: cover;
     background-position: center;
